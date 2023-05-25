@@ -3,6 +3,12 @@ Notes and notebooks I'll take during my study journey on Artificial Intelligence
 
 # Credits
 
+I'm currently taking notes and creating notebook while studying the Machine Learning Masterclass [by datamasters](https://datamasters.it/), that has honestly been one of the biggest step I've done during my AI studyng journey. 
+
+So most of the notebooks, the notes, and the exercise have been highly inspired by their material
+
+--
+
 There many difference source of inspiration from all those files. I'll try to keep all the credits here
 
 Canal Sandeco on YouTube has been a great source of inspiration, especially [this playlist](https://www.youtube.com/playlist?list=PLbmt8d_ueDMVUVlw9VZSdgAIi6W3u-7Zg)
