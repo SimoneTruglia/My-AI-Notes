@@ -1,7 +1,7 @@
 # My journey on Artificial Intelligence
 Notes and notebooks I'll take during my study journey on Artificial Intelligence topics
 
-# Credits
+## Credits
 
 I'm currently taking notes and creating notebook while studying the Machine Learning Masterclass [by datamasters](https://datamasters.it/), that has honestly been one of the biggest step I've done during my AI studyng journey. 
 
