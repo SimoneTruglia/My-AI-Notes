@@ -1,4 +1,4 @@
-# my-journey-on-artificial-intelligence
+# My journey on Artificial Intelligence
 Notes and notebooks I'll take during my study journey on Artificial Intelligence topics
 
 # Credits
