@@ -27,8 +27,8 @@ x8, x9, [x10]
 
 Note that:
 
-- len(ORIGINAL) = 10 but len(RECURRENT) = 8
-
+- len(ORIGINAL) = 10 
+- len(RECURRENT) = 8
 - x1, x2, [x3] represent a single series for the recurrent network, where xi is a a different value of the feature x at the istant t and [x3] is the label of the series
 
 
@@ -54,6 +54,13 @@ x3, x4, ..., x[T+2]
 .
 .
 .
-x(N-T+1), ..., xN
+x[N-T+1], ..., xN
 
-and so we have that in general len(RECURRENT) = len(ORIGINAL) - T
+Note that
+
+- len(ORIGINAL) = N
+- len(RECURRENT) = N-T+1
+
+and so we have that in general 
+
+len(RECURRENT) = len(ORIGINAL) - T + 1
