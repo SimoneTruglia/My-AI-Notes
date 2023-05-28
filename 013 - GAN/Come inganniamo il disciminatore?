@@ -1,0 +1,28 @@
+Perch passiamo al discl'etichetta 1 (reale) anche se effettivamente non lo è?
+
+Quando facciamo
+---
+noise = np.random.normal(0, 1, [batch_size, 100])
+y_gen = np.ones(batch_size)
+discriminator.trainable = False
+gan.train_on_batch(noise, y_gen)
+---
+
+Stiamo trainando la GAN passando come etichette 1, quindi gli stiamo dicendo che quelle immagini sono effettivamente reali (anche se poi non lo sono).
+
+Noi abbiamo che durante la fase di train della GAN, succede questo:
+
+-> la GAN prende in input il noise 
+-> passa il rumore al generatore che genera l'immagine fake 
+-> l'immagine sintetica viene passata al discriminatore 
+-> il discriminatore produce l'output che è (idealmente) 0:falsa oppure 1:reale
+-> l'output del discriminatore (che è l'output della GAN) viene comparato con le label
+-> si calcola l'errore
+-> si ottimizzano i pesi del modello (solo del generatore però perchè qui blocchiamo il discriminatore)
+
+
+Quindi noi ottimizziamo i pesi del generatore considerando l'errore, che per noi è dato dall'otuput del discriminatore comparandolo con le label che abbiamo passato noi (che sono tutti 1, cioè immagini reali)
+
+Ora, quando il discriminatore ci indovina (più o meno sempre all'inizio), lui ci darà ~0 ma noi lo compariamo con l'etichetta 1, quindi stiamo aumentando l'errore, mentre quando sbaglia ci darà ~1 e noi la compariamo con 1, quindi diminuiamo l'errore.
+
+E questo errore noi lo utilizziamo per ottimizzare i pesi di pesi del generatore. Quindi l'errore che utilizziamo per ottimizzare il generatore diminuirà mano mano che il discriminiatre sbaglia.
