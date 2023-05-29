@@ -27,6 +27,6 @@ Many thanks to [@sandeco](https://github.com/sandeco) for all the free materials
 
 In particoular 
 
-- _002 - Linear Regression / 00 - Various / MINST_solo_con_tensori_no_ai.ipynb_ has been created from an excercise in the book _Deep Learning for Coders with Fastai and PyTorch: AI Applications Without a PhD_ by Jeremy Howard and Sylvain Gugger
+- _002 - Linear Regression / 00 - Various / MINST_solo_con_tensori_no_ai.ipynb_ has been created from an excercise in the book _[Deep Learning for Coders with Fastai and PyTorch: AI Applications Without a PhD_ by Jeremy Howard and Sylvain Gugger](https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527)_
 
 Many thanks to [@fastai](https://github.com/fastai) for all the free materials 
