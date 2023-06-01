@@ -41,7 +41,7 @@ In particoular
 
 - _015 - Transformers / 00 - Various / transformer_attention.gif_ has been created [from this video](https://www.youtube.com/watch?v=sznZ78HquPc)
 
-- _015 - Transformers / 00 - Various / qkv_analogy.gif_ has been created [from this video](https://www.youtube.com/watch?v=sznZ78HquPc)
+- _015 - Transformers / 00 - Various / qkv_analogy.png_ has been created [from this video](https://www.youtube.com/watch?v=sznZ78HquPc)
 
 
 Many thanks for all the free materials 
