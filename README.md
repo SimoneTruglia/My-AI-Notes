@@ -11,7 +11,7 @@ I'm currently taking notes and creating notebook while studying the **Machine Le
 
 So most of the notebooks, the notes, and the exercise have been highly inspired by their materials.
 
-Many thanks to [@frankhood](https://github.com/frankhood) and [@giuseppemastrandrea](https://github.com/giuseppemastrandrea) for the way they teach and for all the support along the way
+Many thanks to [@aintzillo](https://github.com/aintzillo), [@giuseppemastrandrea](https://github.com/giuseppemastrandrea) and [@frankhood](https://github.com/frankhood) for the way they teach and for all the support along the way
 
 ----
 
